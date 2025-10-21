@@ -1,17 +1,16 @@
-cat <<'EOF' > watcher/package.json
 {
   "name": "auxite-watcher",
   "version": "1.0.0",
   "type": "module",
   "dependencies": {
-    "dotenv": "^16.4.0",
+    "dotenv": "^16.4.5",
     "node-fetch": "^3.3.2",
     "express": "^4.19.2",
-    "ethers": "^6.10.0"
+    "ethers": "^6.13.2"
   },
   "scripts": {
     "relay": "node relay.js",
     "oracle": "node update-oracle.mjs"
   }
 }
-EOF
+JSON
